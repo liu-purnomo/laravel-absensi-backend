@@ -2,6 +2,8 @@
 
 ![Auth Page Screen](/screen/auth.png)
 
+![Attendance Page Screen](/screen/attendance.png)
+
 ![User Page Screen](/screen/user.png)
 
 ![Company Detail Page Screen](/screen/company-detail.png)
