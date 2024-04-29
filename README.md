@@ -1,14 +1,14 @@
 # Absensi Laravel Backend
 
-![Auth Screen](/screen/auth.png)
+![Auth Page Screen](/screen/auth.png)
 
-![Auth Screen](/screen/user.png)
+![User Page Screen](/screen/user.png)
 
-![Auth Screen](/screen/company-detail.png)
+![Company Detail Page Screen](/screen/company-detail.png)
 
-![Auth Screen](/screen/permission.png)
+![Permissions Screen](/screen/permissions.png)
 
-![Auth Screen](/screen/permission-detail.png)
+![Permission Detail Page Screen](/screen/permission-detail.png)
 
 Absensi Laravel Backend is a backend application for an employee attendance system built using the Laravel 11 framework. This application provides APIs that can be integrated with a frontend application to efficiently manage employee attendance data.
 
