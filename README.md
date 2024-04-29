@@ -10,29 +10,29 @@
 
 ![Auth Screen](/screen/permission-detail.png)
 
-Absensi Laravel Backend adalah aplikasi backend untuk sistem absensi karyawan yang dibangun menggunakan framework Laravel versi 11. Aplikasi ini menyediakan API yang dapat diintegrasikan dengan aplikasi frontend untuk memanajemen data kehadiran karyawan secara efisien.
+Absensi Laravel Backend is a backend application for an employee attendance system built using the Laravel 11 framework. This application provides APIs that can be integrated with a frontend application to efficiently manage employee attendance data.
 
-## Persyaratan
+## Requirements
 
 - PHP >= 8.3
 - Composer
-- MySQL atau database yang kompatibel dengan Laravel
+- MySQL or a database compatible with Laravel
 
-## Instalasi
+## Installation
 
-Untuk menjalankan project ini di lingkungan lokal, ikuti langkah-langkah berikut:
+To run this project in a local environment, follow these steps:
 
-### 1. Kloning Repository
+### 1. Clone the Repository
 
-Clone repository ini ke lokal Anda dengan perintah:
+Clone this repository to your local machine using the command:
 
 ```
 git clone https://github.com/liu-purnomo/absensi-laravel-backend.git
 ```
 
-### 2. Masuk ke Direktori Project
+### 2. Enter the Project Directory
 
-Ganti direktori ke folder project yang telah di-klon:
+Change directory into the cloned project folder:
 
 ```
 cd absensi-laravel-backend
@@ -40,65 +40,65 @@ cd absensi-laravel-backend
 
 ### 3. Install Dependencies
 
-Jalankan Composer untuk menginstall dependencies yang diperlukan oleh Laravel:
+Run Composer to install the necessary dependencies required by Laravel:
 
 ```
 composer install
 ```
 
-### 4. Buat App Key
+### 4. Configure Environment
 
-Generate app key yang akan digunakan untuk mengamankan aplikasi Anda:
-
-```
-php artisan key:generate
-```
-
-### 5. Link Storage
-
-Link folder storage ke public untuk mengakses file secara publik:
-
-```
-php artisan storage:link
-```
-
-### 6. Konfigurasi Environment
-
-Salin file `.env.example` ke `.env` dan sesuaikan konfigurasinya:
+Copy the `.env.example` file to `.env` and adjust its settings:
 
 ```
 cp .env.example .env
 ```
 
-Edit file `.env` dan atur konfigurasi database Anda:
+Edit the `.env` file and set up your database configuration:
 
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=nama_database_anda
-DB_USERNAME=username_database_anda
-DB_PASSWORD=password_database_anda
+DB_DATABASE=your_database_name
+DB_USERNAME=your_database_username
+DB_PASSWORD=your_database_password
 ```
 
-### 7. Jalankan Migrasi Database
+### 5. Generate App Key
 
-Setelah konfigurasi database selesai, jalankan migrasi untuk mengatur database:
+Generate an app key to secure your application:
+
+```
+php artisan key:generate
+```
+
+### 6. Link Storage
+
+Link the storage folder to public to access files publicly:
+
+```
+php artisan storage:link
+```
+
+### 7. Run Database Migrations
+
+After the database configuration is done, run the migrations to set up the database:
 
 ```
 php artisan migrate
 ```
 
-## Menjalankan Server
+## Running the Server
 
-Untuk menjalankan server Laravel secara lokal, gunakan perintah berikut:
+To run the Laravel server locally, use the following command:
 
 ```
 php artisan serve
 ```
 
-Server akan berjalan di `http://localhost:8000`.
+The server will run at `http://localhost:8000`.
 
-## Lisensi
+## License
 
-Proyek ini dilisensikan di bawah [Lisensi MIT](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
